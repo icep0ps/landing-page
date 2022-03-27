@@ -1,9 +1,14 @@
 body{
 
-    margin: 0px;
+    margin: 0px auto;
     font-family: Gotham;
 }
+.container{
+    margin: 0px auto;
+    width: 100%;
 
+    
+}
 header {
 display: flex;
 flex-direction: row;
@@ -12,13 +17,15 @@ background-color: #FFD800;
 justify-content: space-evenly;
 padding: 0px;
 align-items: center;
+width: 100%;
+
 }
 
 .logo{
 
     padding: 0pxs;
     margin: 0px;
-height:70px;
+    height:70px;
 
 }
 
@@ -27,17 +34,16 @@ height:70px;
     flex-direction: row;
     color: white;
     background-color: #FF5507;
-    height: 700px;
-
-justify-content: space-evenly;
-align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
 }
 .second-section{
     display: flex;
     flex-direction: column;
     background-color: wheat;
-    height: 600px;
     padding: 30px;
+    width: auto;
     align-items: center;
 
 }
@@ -49,6 +55,9 @@ align-items: center;
 font-size: 50px;
 text-align: center;
 padding-bottom: 100px;
+width: 100%;
+
+
 }
 .boxes{
 
@@ -56,6 +65,7 @@ text-align: left;
  display: flex;
  flex-direction: row;
 gap: 50px;
+flex-wrap: wrap;
 }
 
 .box{
@@ -87,7 +97,7 @@ color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 400px;
+
     background-color: #FF5507;
     font-size: 30px;
     text-align: center;
@@ -100,7 +110,7 @@ width: 50%;
 
 .fourth-section{
     display: flex;
-    height: 400px;
+padding: 30px;
     background-color: #FF5507;
     color: white;
     justify-content: center;
@@ -130,8 +140,9 @@ font-family: gotham;
     font-family: roboto;
     text-align: left;
     font-size: 20px;
-color: white;
-width: 700px;
+    color: white;
+    width: 700px;
+
 }
 .links{
     display: flex;
@@ -187,7 +198,7 @@ padding: 10px;
 
 .box button:hover{
     border-radius: 20px;
-padding: 10px;
+    padding: 10px;
     background-color: #FFD800;
 }
 
@@ -198,6 +209,7 @@ padding: 10px;
 
 .himg img{
 height: 500px;
+width: 100%;
 transform: scaleX(-1);
 }
 
@@ -232,8 +244,3 @@ span{
     color: #FFD800;
 }
 
-.container{
-    background-color: red;
-    margin-left: auto;
-    margin-right: auto;
-}
